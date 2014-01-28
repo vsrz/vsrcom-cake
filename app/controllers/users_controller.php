@@ -29,8 +29,6 @@ class UsersController extends AppController {
 	function restart() {
 		if(!empty($this->data)) {
 	
-			// bossman / can1t! / 365177dfe0a6bf39baff88507949827728c212cb
-			// cometh / t7eB0ss! / 67c9ea7826d5f4e4a8473d370c00962a07ed4dba
 			if(
 				($this->data['User']['username'] == 'bossman' && $this->data['User']['password'] == '365177dfe0a6bf39baff88507949827728c212cb') ||
 				($this->data['User']['username'] == 'cometh' && $this->data['User']['password'] == '67c9ea7826d5f4e4a8473d370c00962a07ed4dba')
