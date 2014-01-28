@@ -1,0 +1,5 @@
+[Wed Apr 21 16:21:39 2010] [error] [client 127.0.0.1] (13)Permission denied: access to /app/webroot denied
+[Wed Apr 21 16:21:41 2010] [error] [client 127.0.0.1] (13)Permission denied: access to / denied
+[16-May-2010 23:46:17] PHP Warning:  require(cake/basics.php) [<a href='function.require'>function.require</a>]: failed to open stream: Permission denied in /home/biocu0/www/vsritual/index.php on line 52
+[16-May-2010 23:46:17] PHP Warning:  require(cake/basics.php) [<a href='function.require'>function.require</a>]: failed to open stream: Permission denied in /home/biocu0/www/vsritual/index.php on line 52
+[16-May-2010 23:46:17] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'cake/basics.php' (include_path='.:/usr/lib/php:/usr/local/lib/php:/home/biocu0/www/vsritual:/home/biocu0/www/vsritual/app/') in /home/biocu0/www/vsritual/index.php on line 52
