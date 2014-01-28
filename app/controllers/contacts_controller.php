@@ -19,7 +19,7 @@ class ContactsController extends AppController {
 				// Do stuff and send e-mail
 				$this->Email->from  	= $this->data['Contact']['Name'] . ' <' . $this->data['Contact']['E-Mail Address'] . '>';
 				$this->Email->to		= 'ritual@vsritual.com';
-				//$this->Email->to		= 'jbvillegas@gmail.com';
+				//$this->Email->to		= '';
 				$this->Email->subject	= 'Your Message from vsrituaL.com - ' . $this->data['Contact']['Name'] . '(' . $this->data['Contact']['E-Mail Address'] . ')';
 				$this->Email->send('
 					'.$this->data['Contact']['Name'].' says:
